@@ -12,19 +12,12 @@ sudo: true
 matrix:
   fast_finish: true
   include:
-    - php: 7.0
-      env: ES_VERSION="6.7.0"
-
     - php: 7.1
-      env: ES_VERSION="6.7.0"
+      env: ES_VERSION="7.0.0"
 
     - php: 7.2
-      env: ES_VERSION="6.7.0"
+      env: ES_VERSION="7.0.0"
 
-    - php: 7.3
-      env: ES_VERSION="6.6.0"
-    - php: 7.3
-      env: ES_VERSION="6.7.0"
     - php: 7.3
       env: ES_VERSION="7.0.0"
 
